@@ -10,5 +10,6 @@ public class Ex1_OverMain {
 		ol.result("1",0);
 		ol.result(0,"1");
 		
+		System.out.println(); // 오버로딩의 예시 printl함수
 	}
 }
