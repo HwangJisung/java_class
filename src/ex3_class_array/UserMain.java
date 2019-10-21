@@ -4,11 +4,14 @@ public class UserMain {
 	public static void main(String[] args) {
 		User[] user = new User[2];
 		
-		user[1].name = "홍길동";
-		user[1].age = 10;
+		user[0] = new User();
+		
+		user[0].name = "홍길동";
+		user[0].age = 10;
 
-		user[2].name = "임꺽정";
-		user[2].age = 20;
+		user[1] = new User();
+		user[1].name = "임꺽정";
+		user[1].age = 20;
 		
 		for(int i=0; i<user.length; i++)
 		{
